@@ -93,7 +93,7 @@ export default function Coverage() {
               Our <span className="text-accent">Service Area</span>
             </h2>
             <p className="text-gray-600">
-              We currently provide service within a 2km radius of VOK in Nairobi. 
+              We currently provide service within a 2km radius of VOK in Mombasa. 
               Check our interactive map to see if your location is covered.
             </p>
           </div>

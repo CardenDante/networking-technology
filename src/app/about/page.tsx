@@ -5,7 +5,7 @@ import Button from '@/components/ui/Button';
 
 export const metadata: Metadata = {
   title: 'About Us',
-  description: 'Learn about Networking Technology, your trusted provider of affordable high-speed internet in the VOK area of Nairobi.',
+  description: 'Learn about Networking Technology, your trusted provider of affordable high-speed internet in the VOK area of Mombasa.',
 };
 
 export default function About() {
@@ -50,7 +50,7 @@ export default function About() {
               </h2>
               <p className="text-gray-600 mb-4">
                 Networking Technology was founded with a simple mission: to provide affordable, 
-                reliable internet connectivity to residents and businesses in the VOK area of Nairobi.
+                reliable internet connectivity to residents and businesses in the VOK area of Mombasa.
               </p>
               <p className="text-gray-600 mb-4">
                 We noticed that many residents in our community were struggling with either slow, 

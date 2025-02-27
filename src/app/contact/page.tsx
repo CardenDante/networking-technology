@@ -31,10 +31,10 @@ export default function Contact() {
     {
       icon: <FiMapPin size={24} className="text-accent" />,
       title: 'Location',
-      details: ['VOK Area, Nairobi, Kenya', 'Coverage: 2km Radius'],
+      details: ['VOK Area, Mombasa, Kenya', 'Coverage: 2km Radius'],
       action: {
         text: 'Get directions',
-        href: 'https://maps.google.com/?q=VOK+Nairobi',
+        href: 'https://maps.google.com/?q=VOK+Mombasa',
       },
     },
     {

@@ -124,7 +124,7 @@ const Footer = () => {
               <li className="flex items-start">
                 <FiMapPin className="mt-1 mr-3 text-accent" />
                 <span className="text-gray-300">
-                  VOK Area, Nairobi, Kenya<br />
+                  VOK Area, Mombasa, Kenya<br />
                   Coverage: 2km Radius
                 </span>
               </li>
