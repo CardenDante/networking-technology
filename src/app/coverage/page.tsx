@@ -102,7 +102,7 @@ export default function Coverage() {
             <div className="h-[500px] rounded-lg overflow-hidden relative">
               {/* Interactive Map - Replace with actual implementation */}
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.210269275097!2d36.8422!3d-1.2908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMTcnMjcuMCJTIDM2wrA1MCczNS45IkU!5e0!3m2!1sen!2sus!4v1614698412800!5m2!1sen!2sus" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.8147551663695!2d39.68987799999999!3d-4.029079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184013c79bbbd6bb%3A0x9351b5ef18c0ffbd!2sEmmanuel%20Nelson!5e0!3m2!1sen!2ske!4v1740687652098!5m2!1sen!2ske" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 

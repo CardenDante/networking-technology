@@ -2,7 +2,6 @@
 
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { FiPhone, FiMail, FiMapPin, FiFacebook, FiTwitter, FiInstagram, FiLinkedin } from 'react-icons/fi';
 
 const Footer = () => {
@@ -15,15 +14,6 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center mb-6">
-              <div className="w-12 h-12 relative mr-2">
-                <Image 
-                  src="/images/logo.png" 
-                  alt="Networking Technology Logo" 
-                  width={48}
-                  height={48}
-                  className="object-contain"
-                />
-              </div>
               <div>
                 <h3 className="text-xl font-bold leading-tight">
                   <span className="text-accent">neT</span>working<br />
