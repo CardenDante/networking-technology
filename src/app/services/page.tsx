@@ -219,7 +219,7 @@ export default function Services() {
             <div className="relative">
               <div className="w-full h-[500px] relative rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="/images/speed-comparison.jpg"
+                  src="/Speed.jpg"
                   alt="Internet Speed Comparison"
                   fill
                   className="object-cover"

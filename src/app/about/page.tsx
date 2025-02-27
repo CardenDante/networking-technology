@@ -74,7 +74,7 @@ export default function About() {
             <div className="relative">
               <div className="w-full h-[500px] relative rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="/images/our-story.jpg"
+                  src="/net.jpg"
                   alt="Networking Technology Team"
                   fill
                   className="object-cover"
@@ -163,7 +163,7 @@ export default function About() {
             <div className="relative">
               <div className="w-full h-[400px] relative rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="/images/why-choose-us.jpg"
+                  src="/happy.jpg"
                   alt="Happy customers using our internet service"
                   fill
                   className="object-cover"

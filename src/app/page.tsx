@@ -52,79 +52,57 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="pt-32 pb-20 bg-primary overflow-hidden relative">
-        {/* Background Waves */}
-        <div className="absolute inset-0 opacity-10">
+<section className="pt-32 pb-20 bg-primary overflow-hidden relative">
+  {/* Background Waves - keeping subtle background for depth */}
+  <div className="absolute inset-0 opacity-5">
+    <Image
+      src="/images/wifi-waves-bg.png"
+      alt="Background"
+      fill
+      className="object-cover"
+    />
+  </div>
+  
+  <div className="container-custom relative z-10">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      {/* Hero Text */}
+      <div className="text-light max-w-xl">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+          Get <span className="text-accent">Affordable</span> <br />
+          <span>Connectivity</span> <br />
+          At Your <span className="text-accent">Doorstep</span>
+        </h1>
+        <p className="text-lg md:text-xl mb-8 text-gray-200">
+          Experience high-speed internet service with reliable connectivity for all your needs, available within a 2km radius from VOK.
+        </p>
+        <div className="flex flex-wrap gap-4">
+          <Button href="/services" variant="accent" size="lg">
+            View Our Packages
+          </Button>
+          <Button href="/contact" variant="outline" size="lg">
+            Contact Us
+          </Button>
+        </div>
+      </div>
+      
+      {/* Hero Image - Professional styling */}
+      <div className="relative">
+        <div className="w-full h-[400px] lg:h-[500px] relative overflow-hidden rounded-2xl shadow-2xl">
           <Image
-            src="/images/wifi-waves-bg.png"
-            alt="Background"
+            src="/medium.jpg"
+            alt="Couple enjoying streaming content with fast internet"
             fill
             className="object-cover"
+            priority
+            quality={100}
           />
+          {/* Overlay gradient for better text contrast if needed */}
+          <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
         </div>
-        
-        <div className="container-custom relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            {/* Hero Text */}
-            <div className="text-light max-w-xl">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                Get <span className="text-accent">Affordable</span> <br />
-                <span>Connectivity</span> <br />
-                At Your <span className="text-accent">Doorstep</span>
-              </h1>
-              <p className="text-lg md:text-xl mb-8 text-gray-200">
-                Experience high-speed internet service with reliable connectivity for all your needs, available within a 2km radius from VOK.
-              </p>
-              <div className="flex flex-wrap gap-4">
-                <Button href="/services" variant="accent" size="lg">
-                  View Our Packages
-                </Button>
-                <Button href="/contact" variant="outline" size="lg">
-                  Contact Us
-                </Button>
-              </div>
-            </div>
-            
-            {/* Hero Image */}
-            <div className="relative">
-              <div className="w-full h-[400px] lg:h-[500px] relative">
-                <Image
-                  src="/images/hero-image.png"
-                  alt="Person using laptop with fast internet"
-                  fill
-                  className="object-contain"
-                />
-              </div>
-              
-              {/* Floating Wifi Icons */}
-              <div className="absolute top-10 right-10 animate-pulse">
-                <Image
-                  src="/images/wifi-icon.png"
-                  alt="Wifi Signal"
-                  width={50}
-                  height={50}
-                />
-              </div>
-              <div className="absolute top-1/3 right-1/4 animate-pulse delay-300">
-                <Image
-                  src="/images/wifi-icon.png"
-                  alt="Wifi Signal"
-                  width={40}
-                  height={40}
-                />
-              </div>
-              <div className="absolute bottom-1/4 right-20 animate-pulse delay-700">
-                <Image
-                  src="/images/wifi-icon.png"
-                  alt="Wifi Signal"
-                  width={60}
-                  height={60}
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
       
       {/* Service Plans Section */}
       <section className="py-20 bg-gray-50">
@@ -161,7 +139,7 @@ export default function Home() {
             {/* Map Image */}
             <div className="relative w-full h-[400px] rounded-xl overflow-hidden shadow-lg">
               <Image
-                src="/images/coverage-map.png"
+                src="/maps1.PNG"
                 alt="Coverage Area Map"
                 fill
                 className="object-cover"

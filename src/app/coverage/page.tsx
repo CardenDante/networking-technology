@@ -268,7 +268,7 @@ export default function Coverage() {
             <div className="relative">
               <div className="w-full h-[500px] relative rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="/images/installation-process.jpg"
+                  src="/inst.jpg"
                   alt="Internet Installation Process"
                   fill
                   className="object-cover"
