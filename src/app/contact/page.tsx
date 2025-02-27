@@ -140,78 +140,7 @@ export default function Contact() {
           </div>
         </div>
       </section>
-      
-      {/* FAQ Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container-custom">
-          <div className="text-center max-w-3xl mx-auto mb-12">
-            <h2 className="text-3xl font-bold text-primary mb-4">
-              Frequently Asked Questions
-            </h2>
-            <p className="text-gray-600">
-              Find answers to common questions about our internet services.
-            </p>
-          </div>
-          
-          <div className="max-w-3xl mx-auto">
-            <div className="space-y-6">
-              {/* FAQ Item 1 */}
-              <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="p-6">
-                  <h3 className="text-lg font-bold text-primary mb-2">
-                    How do I know if I'm within your coverage area?
-                  </h3>
-                  <p className="text-gray-600">
-                    Our services are available within a 2km radius of VOK. You can check your location 
-                    on our coverage page or contact us with your specific address for confirmation.
-                  </p>
-                </div>
-              </div>
-              
-              {/* FAQ Item 2 */}
-              <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="p-6">
-                  <h3 className="text-lg font-bold text-primary mb-2">
-                    What are your installation fees?
-                  </h3>
-                  <p className="text-gray-600">
-                    Installation fees vary depending on your specific location and setup requirements. 
-                    Please contact us for a personalized quote. We often run promotions with reduced 
-                    or waived installation fees.
-                  </p>
-                </div>
-              </div>
-              
-              {/* FAQ Item 3 */}
-              <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="p-6">
-                  <h3 className="text-lg font-bold text-primary mb-2">
-                    How long does installation take?
-                  </h3>
-                  <p className="text-gray-600">
-                    Once you've subscribed to a package, we typically complete installation within 
-                    24-48 hours, depending on your location and availability.
-                  </p>
-                </div>
-              </div>
-              
-              {/* FAQ Item 4 */}
-              <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="p-6">
-                  <h3 className="text-lg font-bold text-primary mb-2">
-                    What happens if I experience connectivity issues?
-                  </h3>
-                  <p className="text-gray-600">
-                    We provide 24/7 technical support. You can contact our support team via phone, 
-                    and we'll work to resolve any issues as quickly as possible. Most issues can be 
-                    resolved remotely, but if necessary, our technicians will visit your location.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    
     </>
   );
 }

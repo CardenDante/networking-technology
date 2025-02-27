@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { FiMenu, FiX, FiPhone } from 'react-icons/fi';
 
@@ -42,23 +41,20 @@ const Header = () => {
     >
       <div className="container-custom">
         <div className="flex items-center justify-between">
-          {/* Logo */}
+          {/* Logo - Text Only */}
           <Link href="/" className="relative z-10">
             <div className="flex items-center">
-              {/* Replace with your actual logo */}
-              <div className="w-12 h-12 relative mr-2">
-                <Image 
-                  src="/images/logo.png" 
-                  alt="Networking Technology Logo" 
-                  width={48}
-                  height={48}
-                  className="object-contain"
-                />
-              </div>
               <div className="hidden sm:block">
                 <h1 className="text-white text-lg font-bold leading-tight">
                   <span className="text-accent">neT</span>working<br />
                   <span className="text-accent">T</span>echnology
+                </h1>
+              </div>
+              {/* Mobile Logo Text */}
+              <div className="sm:hidden">
+                <h1 className="text-white text-lg font-bold leading-tight">
+                  <span className="text-accent">neT</span>working<br />
+                  <span className="text-accent">T</span>ech
                 </h1>
               </div>
             </div>
