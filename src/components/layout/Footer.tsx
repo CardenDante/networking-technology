@@ -45,16 +45,16 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold mb-6 text-accent">Quick Links</h4>
             <ul className="space-y-4">
-              <li>
+              {/* <li>
                 <Link href="/" className="text-gray-300 hover:text-accent transition-colors">
                   Home
                 </Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link href="/services" className="text-gray-300 hover:text-accent transition-colors">
                   Services
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/about" className="text-gray-300 hover:text-accent transition-colors">
                   About Us
@@ -92,7 +92,7 @@ const Footer = () => {
                   30 Mbps Package
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/services#installation" className="text-gray-300 hover:text-accent transition-colors">
                   Installation Services
                 </Link>
@@ -101,7 +101,7 @@ const Footer = () => {
                 <Link href="/services#support" className="text-gray-300 hover:text-accent transition-colors">
                   Technical Support
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           
