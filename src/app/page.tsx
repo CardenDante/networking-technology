@@ -56,7 +56,7 @@ export default function Home() {
   {/* Background Waves - keeping subtle background for depth */}
   <div className="absolute inset-0 opacity-5">
     <Image
-      src="/images/wifi-waves-bg.png"
+      src="/wifi.jpg"
       alt="Background"
       fill
       className="object-cover"
@@ -79,9 +79,13 @@ export default function Home() {
           <Button href="/services" variant="accent" size="lg">
             View Our Packages
           </Button>
-          <Button href="/contact" variant="outline" size="lg">
-            Contact Us
-          </Button>
+          {/* White button with blue text for maximum visibility */}
+            <a 
+              href="/contact" 
+              className="inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium transition-all duration-300 transform hover:-translate-y-1 bg-white text-primary hover:bg-gray-100"
+            >
+              Contact Us
+            </a>
         </div>
       </div>
       
