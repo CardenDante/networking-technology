@@ -117,8 +117,8 @@ const Footer = () => {
               </li>
               <li className="flex items-start">
                 <FiMail className="mt-1 mr-3 text-accent" />
-                <a href="mailto:info@networkingtechnology.com" className="text-gray-300 hover:text-accent transition-colors">
-                  info@networkingtechnology.com
+                <a href="mailto:emmanuelatundo3@gmail.com" className="text-gray-300 hover:text-accent transition-colors">
+                  emmanuelatundo3@gmail.com
                 </a>
               </li>
               <li className="flex items-start">

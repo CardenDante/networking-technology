@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_KE',
-    url: 'https://networkingtechnology.com/',
+    url: 'https://networkingtech.chach-a.com//',
     siteName: 'Networking Technology',
     title: 'Networking Technology - Affordable Internet at Your Doorstep',
     description: 'Get affordable high-speed internet connectivity at your doorstep within a 2km radius of VOK.',

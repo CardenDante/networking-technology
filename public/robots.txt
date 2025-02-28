@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://networkingtechnology.com/sitemap.xml
+Sitemap: https://networkingtech.chach-a.com//sitemap.xml

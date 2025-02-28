@@ -22,10 +22,10 @@ export default function Contact() {
     {
       icon: <FiMail size={24} className="text-accent" />,
       title: 'Email',
-      details: ['info@networkingtechnology.com'],
+      details: ['emmanuelatundo3@gmail.com'],
       action: {
         text: 'Email us',
-        href: 'mailto:info@networkingtechnology.com',
+        href: 'mailto:emmanuelatundo3@gmail.com',
       },
     },
     {
