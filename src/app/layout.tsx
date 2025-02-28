@@ -3,6 +3,7 @@ import { Inter, Montserrat } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import ClarityScript from '@/components/ClarityScript';
 
 // Initialize fonts
 const inter = Inter({ 
@@ -52,6 +53,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${montserrat.variable}`}>
       <body className="flex flex-col min-h-screen">
+      <ClarityScript />
         <Header />
         <main className="flex-grow">
           {children}
