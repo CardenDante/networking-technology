@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { FiPhone, FiMail, FiMapPin, FiFacebook, FiTwitter, FiInstagram, FiLinkedin } from 'react-icons/fi';
 
 const Footer = () => {
@@ -135,6 +136,26 @@ const Footer = () => {
         {/* Copyright */}
         <div className="pt-8 border-t border-gray-700 text-center text-gray-400">
           <p>© {currentYear} Networking Technology. All rights reserved.</p>
+        </div>
+        <div className="flex justify-center mt-4">
+          <div className="bg-green-800 rounded-lg px-4 py-2 inline-flex items-center">
+            <span className="text-gray-400 text-sm mr-2">Powered by</span>
+            <a 
+              href="https://www.chach-a.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center hover:opacity-80 transition-opacity"
+            >
+              <Image 
+                src="https://www.chach-a.com/logoMark.svg" 
+                alt="Chacha Technologies" 
+                width={20} 
+                height={20} 
+                className="mr-1" 
+              />
+              <span className="text-white text-sm font-medium">Chacha Technologies</span>
+            </a>
+          </div>
         </div>
       </div>
     </footer>
